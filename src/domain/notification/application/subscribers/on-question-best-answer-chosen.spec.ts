@@ -10,7 +10,7 @@ import {
 } from '../use-cases/send-notification'
 import { InMemoryNotificationsRepository } from 'test/repositories/in-memory-notifications-repository'
 import { makeQuestion } from 'test/factories/make-question'
-import type { MockInstance } from 'vitest'
+import { MockInstance } from 'vitest'
 import { waitFor } from 'test/utils/wait-for'
 import { OnQuestionBestAnswerChosen } from './on-question-best-answer-chosen'
 

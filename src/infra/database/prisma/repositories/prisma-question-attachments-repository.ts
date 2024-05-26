@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common'
-import type { QuestionAttachmentsRepository } from '@/domain/forum/application/repositories/question-attachments-repository'
-import type { QuestionAttachment } from '@/domain/forum/enterprise/entities/question-attachment'
+import { QuestionAttachmentsRepository } from '@/domain/forum/application/repositories/question-attachments-repository'
+import { QuestionAttachment } from '@/domain/forum/enterprise/entities/question-attachment'
 
 @Injectable()
 export class PrismaQuestionAttachmentsRepository

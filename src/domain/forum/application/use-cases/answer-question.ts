@@ -1,6 +1,6 @@
 import { UniqueEntityId } from '@/core/entities/unique-entity-id'
 import { Answer } from '../../enterprise/entities/answer'
-import type { AnswersRepository } from '../repositories/answers-repository'
+import { AnswersRepository } from '../repositories/answers-repository'
 import { right, type Either } from '@/core/either'
 import { AnswerAttachment } from '../../enterprise/entities/answer-attachment'
 import { AnswerAttachmentList } from '../../enterprise/entities/answer-attachment-list'
